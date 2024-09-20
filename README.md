@@ -19,6 +19,7 @@
 ![image](https://github.com/user-attachments/assets/dbd8d9f1-5bbc-46c7-8ad9-f48745726235)
 
 6. Then you are redirected to this web page: https://developers.facebook.com/apps/
+
 We press the “Crear App” buton
 
 ![image](https://github.com/user-attachments/assets/d6eadeb7-0578-4464-91ee-59f0f3059e06)
@@ -28,15 +29,24 @@ We press the “Crear App” buton
 ![image](https://github.com/user-attachments/assets/4bbfb162-5c0c-421a-8035-8591436f4191)
  
 There is a new way to create apps with Meta
+
 Instead of picking and choosing an option from a list of permissions and products, we create customizable use cases.
+
 Explore use cases
+
 Use cases are made up of the combinations of permissions, roles, and products that developers most frequently use to add integrations and functionality to apps.
+
 Are you looking for something else?
+
 There are a limited number of use cases available right now, but we will add more in the future.
+
 To create an app with something that is not included in our use cases, select "Other" and choose the app type.
 
 8. What commercial portfolio do you want to connect to this app?
-Connect a verified business portfolio to your app to access business and third-party user data from other business portfolios and publish this app. You can connect an unverified business portfolio or add one later, but you will need to complete verification to access the data.
+
+Connect a verified business portfolio to your app to access business and third-party user data from other business portfolios and publish this app. You can connect an unverified business portfolio or add one 
+
+later, but you will need to complete verification to access the data.
 
 ![image](https://github.com/user-attachments/assets/9e3ac541-faf4-4cd9-a28f-e35976dab4eb)
  
@@ -71,15 +81,25 @@ See the Blazor Web App with Identity we created before
 ![image](https://github.com/user-attachments/assets/e9845ecf-7b7d-45bd-ab4b-ca71365833dd)
 
 Welcome to the apps panel
+
 Here you will manage all aspects of your app and data access.
+
 In the dashboard, all developers can:
+
 Add use cases to this app
+
 Customize permissions, settings, and other use case options
+
 Test API calls
+
 Additionally, technology providers can:
+
 Complete verification processes
+
 Review and complete data access requirements
+
 Submit the app for review
+
 We're working on more improvements, so stay tuned for future updates.
 
 14. Press the button “Agregar y personalizar casos de uso”
@@ -138,7 +158,9 @@ Microsoft.AspNetCore.Authentication.Facebook
 
 ![image](https://github.com/user-attachments/assets/3a8b0164-e208-4096-a00c-6b7f2e75cd95)
 
-23. Open the middleware(program.cs) and add the following code: 
+23. Open the middleware(program.cs) and add the following code:
+
+```csharp
 builder.Services.AddAuthentication(options =>
     {
         options.DefaultScheme = IdentityConstants.ApplicationScheme;
@@ -150,16 +172,26 @@ builder.Services.AddAuthentication(options =>
         options.AppSecret = "ea39fce262e71902ef468e5ee6d33aa3"; 
     })
     .AddIdentityCookies();
+```
 
 NOTA:  Before running the Blazor Web App execute the following command creating the Identity database in SQL Server:
+
+```
 docker run ^  -e "ACCEPT_EULA=Y" ^  -e "MSSQL_SA_PASSWORD=Luiscoco123456" ^  -p 1433:1433 ^  -d mcr.microsoft.com/mssql/server:2022-latest
+```
 
 In SSMS create the database with the following query:
+
+```
 CREATE DATABASE [aspnet-LeccionAuthentication-786afbd3-4fd2-48bc-870d-29133ccc59c8];
 GO
+```
 
 Modify the connection string in the blazor app:
+
+```
 "ConnectionStrings": {"DefaultConnection": "Server=localhost,1433;Database=aspnet-LeccionAuthentication-786afbd3-4fd2-48bc-870d-29133ccc59c8;User Id=sa;Password=Luiscoco123456;Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True"}
+```
 
 Execute the migration with the following command in Visual Studio Packa Manager: Update-Database
 
@@ -204,9 +236,3 @@ Execute the migration with the following command in Visual Studio Packa Manager:
 33. Now if we navigate to the logged user menú option we can verify one of the External logins is Facebook
 
 ![image](https://github.com/user-attachments/assets/63e21278-1a66-4823-9da2-1d2eff271fe9)
-
-
-
-
-
-
