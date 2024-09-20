@@ -167,6 +167,40 @@ Execute the migration with the following command in Visual Studio Packa Manager:
 
 ![image](https://github.com/user-attachments/assets/0118085e-1d78-4d51-98fd-feb9d7293e95)
 
+![image](https://github.com/user-attachments/assets/41f930af-4552-4445-a071-e47db55d5aac)
+
+25. We press the Facebook button in the Register page and we are redirected to the following page. 
+
+![image](https://github.com/user-attachments/assets/697c31e2-b7ec-4ee8-92e2-3e9085a801bd)
+
+26. Press the link: Edit Access for confirming the email for accessing the application.
+
+![image](https://github.com/user-attachments/assets/562087e9-ccad-4917-ab55-162f5849ab72)
+
+27. Press the Register button for creating a new user.
+
+![image](https://github.com/user-attachments/assets/82bc20a0-ad97-4fa6-8dab-b16b2502bffd)
+
+28. Press the hyperlink: Click here to confirm your account
+
+![image](https://github.com/user-attachments/assets/be0838a8-218f-44c1-8965-4f942d1c3b25)
+
+29. Once you confirmed the account we receive the following message
+
+![image](https://github.com/user-attachments/assets/aaa318aa-0f7a-4ee0-8040-7b0823e32797)
+
+30. Now we are going to Login with the Facebook button
+
+![image](https://github.com/user-attachments/assets/cd8dc148-e083-4635-b0c3-294d2aa7012a)
+
+31. Now we press the button “Continuar como Luis”
+
+![image](https://github.com/user-attachments/assets/9799a853-4a5a-4469-83ca-bbf5cccbdbb1)
+
+
+
+
+
 
 
 
