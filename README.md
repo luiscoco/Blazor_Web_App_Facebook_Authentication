@@ -52,10 +52,15 @@ Authenticate and prompt users with Facebook login. Our most common use case. A s
  
 See the Blazor Web App with Identity we created before
 
+![image](https://github.com/user-attachments/assets/df480cee-d02c-4555-aaa6-4b2d2dabcfd8)
 
+11. Press the Create App button for finishing the process of application creation.
+
+![image](https://github.com/user-attachments/assets/b243bffd-ee24-40af-9de8-9ab9076325ad)
  
 12. Press the Create App button for finishing the process of application creation.
  
+![image](https://github.com/user-attachments/assets/884396c4-e13d-4832-9f92-14e93967ccbf)
 
 
 
