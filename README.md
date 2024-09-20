@@ -18,18 +18,14 @@
  
 ![image](https://github.com/user-attachments/assets/dbd8d9f1-5bbc-46c7-8ad9-f48745726235)
 
-
-
-
-
-
-
-
-
 6. Then you are redirected to this web page: https://developers.facebook.com/apps/
 We press the “Crear App” buton
+
+![image](https://github.com/user-attachments/assets/d6eadeb7-0578-4464-91ee-59f0f3059e06)
  
 7. Read the folllowing message.
+
+![image](https://github.com/user-attachments/assets/4bbfb162-5c0c-421a-8035-8591436f4191)
  
 There is a new way to create apps with Meta
 Instead of picking and choosing an option from a list of permissions and products, we create customizable use cases.
@@ -38,26 +34,34 @@ Use cases are made up of the combinations of permissions, roles, and products th
 Are you looking for something else?
 There are a limited number of use cases available right now, but we will add more in the future.
 To create an app with something that is not included in our use cases, select "Other" and choose the app type.
+
 8. What commercial portfolio do you want to connect to this app?
 Connect a verified business portfolio to your app to access business and third-party user data from other business portfolios and publish this app. You can connect an unverified business portfolio or add one later, but you will need to complete verification to access the data.
+
+![image](https://github.com/user-attachments/assets/9e3ac541-faf4-4cd9-a28f-e35976dab4eb)
  
 9. We select the second use case: Facebook Login Use Case
 https://developers.facebook.com/docs/development/create-an-app/facebook-login-use-case/
 Authenticate and prompt users with Facebook login. Our most common use case. A secure and fast way for users to sign in to your app or game and have the app ask them for permissions to access their data to personalize their experience. Learn more.
- 
+
+![image](https://github.com/user-attachments/assets/f161754d-6634-4ecf-848b-701993200e80)
 
 10. We enter the application name and we press the next button
+
+![image](https://github.com/user-attachments/assets/78d12570-4fc4-4a02-8a49-f665edad7a08)
  
 See the Blazor Web App with Identity we created before
+
+
  
-11. Press the Create App button for finishing the process of application creation.
+12. Press the Create App button for finishing the process of application creation.
  
 
 
 
-12. Enter your password and press the send button
+13. Enter your password and press the send button
  
-13. Now you are redirected to the Dashboard
+14. Now you are redirected to the Dashboard
  
 
 
