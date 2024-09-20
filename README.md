@@ -62,17 +62,13 @@ See the Blazor Web App with Identity we created before
 
 ![image](https://github.com/user-attachments/assets/b243bffd-ee24-40af-9de8-9ab9076325ad)
  
-12. Press the Create App button for finishing the process of application creation.
- 
-![image](https://github.com/user-attachments/assets/884396c4-e13d-4832-9f92-14e93967ccbf)
+12.Enter your password and press the send button
 
-13. Enter your password and press the send button
- 
-![image](https://github.com/user-attachments/assets/37b7bab9-6103-482e-9649-b1f91bbac4f2)
+![image](https://github.com/user-attachments/assets/c04426f6-cce8-434e-b49b-481152ae0826)
 
-14. Now you are redirected to the Dashboard
- 
+13. Now you are redirected to the Dashboard
 
+![image](https://github.com/user-attachments/assets/e9845ecf-7b7d-45bd-ab4b-ca71365833dd)
 
 Welcome to the apps panel
 Here you will manage all aspects of your app and data access.
@@ -87,105 +83,15 @@ Submit the app for review
 We're working on more improvements, so stay tuned for future updates.
 
 14. Press the button “Agregar y personalizar casos de uso”
- 
 
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/2a6e6182-cb7e-478a-afd3-436f41ab3c6e)
 
 15. Press the button “Agregar” in the email section
- 
 
-
+![image](https://github.com/user-attachments/assets/f119fde1-55d3-4cbd-a3dc-b975f57d11be)
 
 16. See the result
- 
 
-17. We select Configuration in the Menu
-Input the Application route in the valid OAuth 
- 
-URI de redireccionamiento de OAuth válidos
-El parámetro "redirect_uri" especificado manualmente que se usa con el inicio de sesión en la web debe coincidir exactamente con uno de los URI de esta lista. El SDK para JavaScript también usa esta lista para los navegadores de la app que bloquean las ventajas emergentes.
- 
- 
-18. Press Save changes
- 
+![image](https://github.com/user-attachments/assets/f7342f8c-9276-4101-8723-ff477b1fcc95)
 
-19. Select Panel->Configuración de la app->Básica
- 
-20. Copy these values Identificador de la app y Clave secreta de la app
- 
-Identificador de la app: XXXXXXXXXXXXXXX
-Clave secreta de la app: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-21. Open the Blazor aaplication and load the Nuget packages for using the Facebook authenticacion:
-Microsoft.AspNetCore.Authentication.Facebook
- 
- 
-22. We confirm the Facebook authentication package is loaded in the Dependencies folder
- 
-23. Open the middleware(program.cs) and add the following code: 
-builder.Services.AddAuthentication(options =>
-    {
-        options.DefaultScheme = IdentityConstants.ApplicationScheme;
-        options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-    })
-    .AddFacebook(options=>
-    {
-        options.AppId = "XXXXXXXXXXXXXXXXXX";
-        options.AppSecret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; 
-    })
-    .AddIdentityCookies();
-
-NOTA:  Before running the Blazor Web App execute the following command creating the Identity database in SQL Server:
-docker run ^  -e "ACCEPT_EULA=Y" ^  -e "MSSQL_SA_PASSWORD=Luiscoco123456" ^  -p 1433:1433 ^  -d mcr.microsoft.com/mssql/server:2022-latest
-
-
-In SSMS create the database with the following query:
-CREATE DATABASE [aspnet-LeccionAuthentication-786afbd3-4fd2-48bc-870d-29133ccc59c8];
-GO
-
-Modify the connection string in the blazor app:
-"ConnectionStrings": {"DefaultConnection": "Server=localhost,1433;Database=aspnet-LeccionAuthentication-786afbd3-4fd2-48bc-870d-29133ccc59c8;User Id=sa;Password=Luiscoco123456;Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True"}
-
-Execute the migration with the following command in Visual Studio Packa Manager: Update-Database
-
-24. Now we run the application and we see the Facebook button for accessing and login in the application
-
- 
- 
-25. We press the Facebook button in the Register page and we are redirected to the following page. 
- 
-26. Press the link: Edit Access for confirming the email for accessing the application.
- 
-
-27. Press the Register button for creating a new user.
- 
-
-28. Press the hyperlink: Click here to confirm your account
- 
-
-
-
-
-
-
-29. Once you confirmed the account we receive the following message 
-30. Now we are going to Login with the Facebook button
- 
-
-
-
-
-31. Now we press the button “Continuar como Luis”
- 
-
-32. Perfect! We are logged with the Facebook Authentication
-  
-
-33. Now if we navigate to the logged user menú option we can verify one of the External logins is Facebook
- 
-
-
+17.  
