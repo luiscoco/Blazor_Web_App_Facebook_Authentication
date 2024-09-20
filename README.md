@@ -3,15 +3,12 @@
 1. Enter in this URL: https://developers.facebook.com/
 
 2. Navigate to the menu option: Get Started
- 
+
+![image](https://github.com/user-attachments/assets/a9f709ed-da33-4ca0-8242-44c08a888157)
+
 3. See the Register option is selected then press “Continuar” button
  
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/d6330642-49a0-4419-a240-81732cda0140)
 
 4. Select the CheckBox and press the button to Confirm your email
  
