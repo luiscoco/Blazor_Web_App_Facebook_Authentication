@@ -11,9 +11,12 @@
 ![image](https://github.com/user-attachments/assets/d6330642-49a0-4419-a240-81732cda0140)
 
 4. Select the CheckBox and press the button to Confirm your email
- 
+
+![image](https://github.com/user-attachments/assets/ead4aa2f-c8b0-4ffe-af18-f0a3adf3f8d3)
+
 5. Select the Developer option and press the button to continue
  
+![image](https://github.com/user-attachments/assets/dbd8d9f1-5bbc-46c7-8ad9-f48745726235)
 
 
 
