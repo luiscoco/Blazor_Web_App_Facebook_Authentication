@@ -121,8 +121,8 @@ builder.Services.AddAuthentication(options =>
     })
     .AddFacebook(options=>
     {
-        options.AppId = "1688021108430552";
-        options.AppSecret = "ea39fce262e71902ef468e5ee6d33aa3"; 
+        options.AppId = "XXXXXXXXXXXXXXXXXX";
+        options.AppSecret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"; 
     })
     .AddIdentityCookies();
 
