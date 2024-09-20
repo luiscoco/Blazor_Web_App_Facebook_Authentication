@@ -41,8 +41,12 @@ Connect a verified business portfolio to your app to access business and third-p
 ![image](https://github.com/user-attachments/assets/9e3ac541-faf4-4cd9-a28f-e35976dab4eb)
  
 9. We select the second use case: Facebook Login Use Case
+
 https://developers.facebook.com/docs/development/create-an-app/facebook-login-use-case/
-Authenticate and prompt users with Facebook login. Our most common use case. A secure and fast way for users to sign in to your app or game and have the app ask them for permissions to access their data to personalize their experience. Learn more.
+
+Authenticate and prompt users with Facebook login. Our most common use case. 
+
+A secure and fast way for users to sign in to your app or game and have the app ask them for permissions to access their data to personalize their experience. Learn more.
 
 ![image](https://github.com/user-attachments/assets/f161754d-6634-4ecf-848b-701993200e80)
 
@@ -62,10 +66,10 @@ See the Blazor Web App with Identity we created before
  
 ![image](https://github.com/user-attachments/assets/884396c4-e13d-4832-9f92-14e93967ccbf)
 
-
-
 13. Enter your password and press the send button
  
+![image](https://github.com/user-attachments/assets/37b7bab9-6103-482e-9649-b1f91bbac4f2)
+
 14. Now you are redirected to the Dashboard
  
 
