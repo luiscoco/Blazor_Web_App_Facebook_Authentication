@@ -1,4 +1,4 @@
-# How to include Microsoft Authentication in a Blazor Web Application
+# How to include Facebook Authentication in a Blazor Web Application
 
 1. Enter in this URL: https://developers.facebook.com/
 
