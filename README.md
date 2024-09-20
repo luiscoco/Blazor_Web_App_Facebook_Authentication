@@ -197,11 +197,13 @@ Execute the migration with the following command in Visual Studio Packa Manager:
 
 ![image](https://github.com/user-attachments/assets/9799a853-4a5a-4469-83ca-bbf5cccbdbb1)
 
+32. Perfect! We are logged with the Facebook Authentication
 
+![image](https://github.com/user-attachments/assets/2c9c81ac-f5e4-4ccd-bcc3-d0e676a18ae3)
 
+33. Now if we navigate to the logged user menú option we can verify one of the External logins is Facebook
 
-
-
+![image](https://github.com/user-attachments/assets/63e21278-1a66-4823-9da2-1d2eff271fe9)
 
 
 
